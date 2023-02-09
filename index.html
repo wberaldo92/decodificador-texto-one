@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link rel="stylesheet" href="style.css">
+	<title>Decodificador de Texto</title>
+</head>
+<body>
+	<section>
+	<header>
+		<img class="logoAlura" src="imagens/logoAlura.png" alt="Logo da Alura">
+	</header>
+	</section>
+
+	<main>
+		<section class="areaPrincipal">
+			<textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+			<div>
+				<h6 class="regrasTexto">❗Utilizar apenas letras minúsculas e sem acento.</h6>
+			</div>
+
+			<div class="botoes">
+				<button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+				<button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+			</div>
+		</section>
+
+		<section class="areaResultado">
+				<textarea class="mensagem" cols="20" rows="10"></textarea>
+				<!-- <img class="imagemPesquisar" id="imgPesquisar" src="imagens/boneco.png" alt="Criptografando"> -->
+				<!-- <div class="botoesAreaResultado"> -->
+					<button class="btn-copiar" id="btn_copiar" onclick="btnCopiar()">Copiar</button>
+					<button class="btn-limpar" id="btn_limpar" onclick="btnLimpar()">Limpar</button>
+				<!-- </div> -->
+		</section>
+	</main>
+	
+	<div class="bananas">
+		
+	</div>
+
+	<script src="script.js"></script>
+	
+	<footer>
+		<p class="copyright">Develop by Wellington Beraldo</p>
+		<p class="copyright">&copy; Copyright Challenge Alura - 2023</p>
+	</footer>
+</body>
+</html>
